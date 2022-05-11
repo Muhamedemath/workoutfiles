@@ -1,0 +1,26 @@
+h1
+{
+    color: blueviolet;
+}
+/* position */
+body{
+   
+}
+.Position{
+    height: 30vh;
+    width: 50%;
+    background-color: blueviolet;
+}
+.emath{
+    height: 10vh;
+    width: 30%;
+    background-color: brown;
+    text-align: center;
+}
+/* position end */
+
+.form{
+    background-color: brown;
+    border-style: double;
+    text-align: center;
+}
