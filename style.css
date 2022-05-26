@@ -1,0 +1,442 @@
+@font-face{
+    font-family: 'Montserrat-Regular.ttf';
+    src: url(fonts/static/Montserrat-Regular.ttf );
+}
+@font-face {
+    font-family: 'Montserrat-Thin.ttf';
+    src: url(fonts/static/Montserrat-Thin.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Semibold.ttf';
+    src: url(fonts/static/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Light.ttf';
+    src: url(fonts/static/Montserrat-Light.ttf);
+}
+/* position */
+body{
+   
+}
+.Position{
+    height: 30vh;
+    width: 50%;
+    background-color: blueviolet;
+}
+.emath{
+    height: 10vh;
+    width: 30%;
+    background-color: brown;
+    text-align: center;
+}
+/* position end */
+
+.form{
+    border-style: double;
+    text-align: center;
+}
+.Video{
+    width:100%;
+    height:100%;
+}
+ /* my web pagge */
+ body{
+     margin: 0;
+     padding: 0;
+ }
+.layout1{
+    width: 100%;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+.logo{
+    padding-left: 40PX;
+    padding-top: 20px;  
+}
+.logo img{
+    width: 102%;
+    height:54px ;
+}
+.menu{
+    padding-right: 31px;
+    padding-top: 20px;
+    color: #007BB5;
+}
+
+.menu img{
+    width: 81%;
+    height: 28px;
+    padding: 15px;
+}
+.Header2{
+    color: #0256a7;
+    font-family: 'Montserrat-Semibold.ttf';
+    font-size: 48px;
+}
+.contant2{
+    font-family: 'Montserrat-Regular.ttf';
+    font-size: 24px;
+    color: #1a1a1a;
+    min-height: 110px;
+}
+
+.layout2{
+    background-image: url(../image/home_banner_transformation.png);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Header{
+    color: #ff9600;
+    font-size: 60px;
+    font-weight: normal;
+    font-family: 'Montserrat-Regular.ttf';
+    margin-bottom:0;
+    
+}
+.fa-brands{
+    color: #FFFFFF;
+    font-size: 27px;
+    background-color: #007BB5;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 307px;
+    cursor: pointer;                                                                                                                                                     
+}
+.fa-solid{
+    color: #FFFFFF;
+    font-size: 20px;
+    background-color: green;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top:352px;
+    cursor: pointer;
+}
+.contant1{
+    font-size: 24px;
+    color:white;
+    font-family: 'Montserrat-Thin.ttf';
+}
+
+.sublayout1{
+    display: flex;
+}
+.sublayout2{
+    margin-top: -130px;
+}
+.layout3{
+    background-image: url(../image/hospitality.png);
+    width: 100%;
+    height: 695px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.digital1{
+    border: 1px solid #FFFFFF;
+    padding: 7px;
+    background-color: transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-right: 15px;
+    font-size: larger;
+    font-family: 'Montserrat-Regular.ttf';
+}
+.digital2{
+    border: 1px solid #FFFFFF;
+    padding: 8px;
+    background-color: transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-right: 15px;
+    font-size: larger;
+    width: 240px;
+    font-family: 'Montserrat-Regular.ttf';
+}
+.btn1{
+    border: 1px solid #332b2b;
+    padding: 10px 50px;
+    background-color: transparent;
+    color: #270909;
+    cursor: pointer; 
+    font-family: 'Montserrat-Regular.ttf';   
+}
+.page1{
+    display: flex;
+    justify-content: center;
+}
+
+.subpage{
+    background-image: url(../image/redimage.png);
+    padding: 48px 40px;
+    background-size: cover;
+    height: 250px;
+}
+.subpage{
+    display: flex;
+    align-items: center;
+}
+.subpage1{
+    background-image: url(../image/yellow.png);
+    padding: 50px 40px;
+    background-size: cover;
+    height: 250px;   
+}
+.subdesign{
+    display: flex;
+    justify-content: end;
+}
+.subclass1{
+    width: 46%;
+}
+.pageheader{
+    font-size: 42px;
+    font-family: 'Montserrat-Regular.ttf';
+    color: white;
+}
+.pageheader3{
+    font-size: 38px;
+    font-family: 'Montserrat-Regular.ttf';
+    color: white;
+}
+.pcontant1{
+    font-size: 20px;
+    font-family: 'Montserrat-Regular.ttf';
+    color: #1a1a1a;
+}
+.pcontant3{
+    margin-top: -28px;
+    font-family: 'Montserrat-Regular.ttf';
+}
+.page3{
+    background-image: url(../image/skyblue.png);
+    background-size: cover; 
+    min-height: 16vh;
+    width: 535px;
+    display: flex;
+    align-items: end;
+}
+.pageending5{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.btn2{
+    border: 1px solid #FFFFFF;
+    padding: 10px 50px;
+    background-color: transparent;
+    color: #FFFFFF;
+    cursor: pointer; 
+}
+.btn3{
+    border: 1px solid #FFFFFF;
+    padding: 10px 50px;
+    background-color: transparent;
+    color: #FFFFFF;
+    cursor: pointer; 
+}
+.btn4{
+    border: 1px solid #FFFFFF;
+    padding: 10px 50px;
+    background-color: transparent;
+    color: #FFFFFF;
+    cursor: pointer; 
+}
+.contant4{
+    display: flex;
+}
+.subcontant5{
+    background-color: #252525;
+    padding-left: 30%;
+    
+    padding-top: 9%;
+    margin: 0!important;
+    min-width: 338px;
+}
+.end2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.contant8{
+    display: flex;
+    justify-content: center;
+}
+.end3{
+    background-color: #262e3a;
+    padding-left: 4%;
+    height: 640px;
+    padding-top: 2%;
+    margin: 0!important;
+    width: 392px;
+}
+.headerdesign7{
+    font-family: 'Montserrat-Regular.ttf';
+    font-size: 36px;
+    color: white;
+    min-height: 70px;
+    padding-top: 2%;
+}
+.headerdesign1{
+    font-family: 'Montserrat-Thin.ttf';
+    font-size: 22px;
+    color: white;
+    min-height: 35px;
+}
+.headercontant{
+    font-family: 'Montserrat-Regular.ttf';
+    font-size: 14px;
+    color: white;
+    min-height: 75px;
+}
+.btn5{
+    border: 1px solid #FFFFFF;
+    width: 240px;
+    height: 39px;
+    background-color: transparent;
+    color: #FFFFFF;
+    cursor: pointer; 
+    font-size:15px;
+}
+.end4{
+    
+    padding-top: 11%;
+    padding-left: 3%;
+    padding-bottom: 1%;
+}
+.formcontant{
+    font-family: 'Montserrat-Regular.ttf';
+    font-size: 36px;
+    color: #555;
+    padding-bottom: 5%;
+    padding-left: 38px;
+}
+.liststyle{
+    list-style: none;
+}
+.formheading{
+    font-family: 'Montserrat-Light.ttf';
+    font-size: 20px;
+    color: #000000;
+}
+.text_field{
+    width: 55%;
+    background-color: white;
+    border: 0px;
+    border-bottom: 2px solid #e1e1e1;
+    color: #0056a6;
+    font-size: 24px;
+    font-family: Montserrat-Light;
+}
+.formbtn{
+    border-radius: 0;
+    font-size: 18px;
+    font-family: 'Montserrat-Regular.ttf';
+    color: #1a1a1a;
+    background-color: transparent;
+    width: 240px;
+    height: 42px;
+    text-transform: uppercase !important;
+    border: 2px solid #1a1a1a;
+    margin: 48px;
+    margin-top: 10px;
+}
+.footer{
+    display: flex;
+    background-color: #2a2a2a;
+    height: 135px;
+    width: 100%;
+}
+.mainicons img{
+    width: 40px;
+    height: 40px;
+} 
+.mainicons{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10%;
+    grid-gap: 1em;
+    cursor: pointer;
+    padding-left: 5%;
+    padding-top: 74px;
+}
+.iconclass{
+    font-size: 18px;
+    font-family: 'Montserrat-Regular.ttf';
+    color: #54c115;
+    padding-top: 4%;
+    margin-top: -55px;
+    margin-left: 19px;
+}
+.alignclass{
+    color: #54c115;
+    font-family: 'Montserrat-Regular.ttf';
+    font-size: 18px;
+    
+}
+.align{
+    padding-left: 10%;
+}
+.align a{
+    color: white;
+    font-size: px;
+    font-family: 'Montserrat-Regular.ttf';
+}
+.pageending{
+    display: flex;
+    background-color:#252525 ;
+    width: 100%;
+    height: 4   0px;
+    justify-content: center;
+}
+.pageending h5{
+    color: #727272;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* grid */
+.maingrid{
+
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows:100px 100px 100px 100px;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+}
+
+.grid1{
+    background-color: #270909;
+}
+.grid2{
+    background-color: #4834D4;
+}
+.grid3{
+    background-color: chartreuse;
+}
+.grid4{
+    background-color: brown;
+}
+.grid5{
+    background-color: darkmagenta;
+    
+}
+.grid6{
+    background-color: darkred;
+    
+}
+.grid7{
+    background-color: mediumspringgreen;
+}
+
